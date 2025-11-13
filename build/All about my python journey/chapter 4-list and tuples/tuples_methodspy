@@ -1,0 +1,15 @@
+tup1 = (1,2,True,"Harshad",5,5,6)
+print(tup1)
+
+t1 = tup1.count(5)
+print(t1)
+
+t2 = tup1.index("Harshad")
+print(t2)
+
+print(len(tup1))
+
+# Tuples can be unpacked into individual variables
+tup2 = (1,2,3)
+a,b,c = tup2
+print(a,b,c)
