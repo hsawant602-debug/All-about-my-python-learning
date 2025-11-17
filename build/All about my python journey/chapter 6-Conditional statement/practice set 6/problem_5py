@@ -1,0 +1,7 @@
+list = ["harshad","sawant","tushar","rohan"]
+name = input("Enter the name: ")
+
+if (name in list):
+    print("The name is in the list")
+else:
+    print("The name is not in the list")
